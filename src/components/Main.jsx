@@ -62,33 +62,37 @@ const Main=()=>{
                     
                     <strong>Popular</strong> This Week<br/><br/>
                     <div className="row">
-                        <div className="col-5 jumbotron rounded m-2" style={{backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSYXfI5S5pgQBJLaaa7hfXP8kbxXfyQzV2ZCg&usqp=CAU)",height:"62vh"}} >
-                            <span style={{color:"white"}}>
+                        <div className="col-5 jumbotron rounded m-2" style={{backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRppWM5xiY7OCVbcZArBihT2FndwuZEElr5iA&usqp=CAU)",height:"62vh",backgroundSize:"cover"}} >
+                            <span style={{color:"black"}}>
                                 <img src="https://png.pngtree.com/element_our/png/20181206/users-vector-icon-png_260862.jpg" height="20" widht="20"/> Uran Design
                             </span>
                         </div>
-                        <div className="col-5 jumbotron rounded m-2" style={{backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQFxJI1nse2nRbbYXORdMbqEi8dMQIlx8FMNw&usqp=CAU)"}}>
+                        <div className="col-5 jumbotron rounded m-2" style={{backgroundImage: "url(https://ak.picdn.net/shutterstock/videos/1013293871/thumb/1.jpg)",backgroundSize:"cover"}}>
                             <span style={{color:"white"}}>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png" height="20" width="20" /> Lana Marandina
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png" height="30" width="30" /> Lana Marandina
                             </span>
                         </div>
                     </div><br/>
 
                     <strong>Top</strong> Tutors<br/><br/>
                     <div className="row">
-                        <div className="jumbotron rounded col-5 m-1" >
-                            More Image Here
+                        <div className="jumbotron rounded col-5 m-1" style={{backgroundColor:"#05D7CB"}}>
+                            <img src="https://f0.pngfuel.com/png/340/946/man-face-illustration-avatar-user-computer-icons-software-developer-avatar-png-clip-art.png" height="40" width="60" alt="Tutor 1" class="float-left mr-2"/>
+                            <strong><h6> Kenny Foster</h6></strong>
                         </div>
-                        <div className="jumbotron rounded col-5 m-1">
-                            More Image Here
+                        <div className="jumbotron rounded col-5 m-1" style={{backgroundColor:"#8BEE0A"}}>
+                            <img src="https://mpng.subpng.com/20180630/ltq/kisspng-computer-icons-user-avatar-clip-art-skincare-cartoon-5b371025a6d8a7.5354815915303352696834.jpg" height="40" width="40" alt="Tutor 2" class="float-left mr-2"/>
+                            <strong><h6>Aaron Kendroll</h6></strong>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="jumbotron rounded col-5 m-1" >
-                            More Image Here
+                        <div className="jumbotron rounded col-5 m-1" style={{backgroundColor:"#F15F8F"}}>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxXUd83er1zzGCdrq1cl7Cn-jT3baFXGuUwQ&usqp=CAU" height="40" width="40" alt="Tutor 3" class="float-left mr-2"/>
+                            <strong><h6>Melanie Grutt</h6></strong>
                         </div>
-                        <div className="jumbotron rounded col-5 m-1" >
-                            More Image Here
+                        <div className="jumbotron rounded col-5 m-1" style={{backgroundColor:"#AE6EF6"}}>
+                            <img src="https://cdn4.iconfinder.com/data/icons/flatfaces-everyday-people-circular/125/flatfaces24-512.png" height="40" width="40" alt="Tutor 4" class="float-left mr-2"/>
+                            <strong><h6>Keira Danlop</h6></strong>
                         </div>
                     </div>
                 </div>
@@ -102,20 +106,19 @@ const Main=()=>{
                         <div>
                             <input className="col-9 rounded" type="text" placeholder="Start Writing Something"/>
                             <button className="m-2 btn btn-warning btn-sm rounded">Find</button>
-                        </div><br/><br/><br/><br/>
-                    <div className="jumbotron rounded">
-                        Some Image Here
+                        </div><br/><br/><br/>
+                    <div className="jumbotron rounded" style={{backgroundImage:"url(https://images4.alphacoders.com/109/thumb-350-1096657.jpg)",height:"30vh",backgroundSize:"cover"}}>
                     </div>
                     <div className="row">
-                        <div className="jumbotron rounded col-5 m-2">
+                        <div className="jumbotron rounded col-5 m-2" style={{backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQq6RDOv9ZeB3_QLnYHnqkSLnvcqIXLSYmACg&usqp=CAU)",height:"35vh",backgroundSize:"cover"}}>
                             More Image Here
                         </div>
-                        <div className="jumbotron rounded col-5 m-2">
+                        <div className="jumbotron rounded col-5 m-2" style={{backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_HUEM4-cZ-z0cloBHPfSqwuQ9vlzs6hFwkw&usqp=CAU)",height:"35vh",backgroundSize:"cover"}}>
                             More Image Here
                         </div>
                     </div><br/>
                     <strong>Special Offers</strong><strong style={floating}>...</strong><br/><br/>
-                    <div className="jumbotron rounded m-2" style={{height:"50vh"}}>
+                    <div className="jumbotron rounded m-2" style={{backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDLnyI77vEn0x6cX_l2j-dA7SkPXlzv6iVLg&usqp=CAU)",height:"50vh",backgroundSize:"cover"}}>
                         Sample image here
                     </div>
                 </div>
