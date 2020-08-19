@@ -15,10 +15,10 @@ const Main=()=>{
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrJBL5B1sNQIuUjmgJPwGIk0V_DcuKzCVsNQ&usqp=CAU" height="40" width="40" alt="Edukated Logo" /><span><strong>Edu</strong>kated</span><br/><br/>
                     <div className="jumbotron rounded m-2" style={{height:"45vh"}}>
                         <ul>
-                            <li className="m-3"><strong>Home</strong></li>
-                            <li className="m-3"><strong>Discover</strong></li>
-                            <li className="m-3"><strong>Messages</strong></li>
-                            <li className="m-3"><strong>Settings</strong></li>
+                            <li className="m-2 badge badge-primary"><img src="https://static.thenounproject.com/png/423483-200.png" height="20" width="20"/><a href="#" style={{color:"white"}}><strong> Home</strong></a></li>
+                            <li className="m-2 badge badge-warning"><img src="https://img.icons8.com/cotton/2x/search--v2.png" height="20" width="20"/><a href="#" style={{color:"white"}}><strong> Discover</strong></a></li>
+                            <li className="m-2 badge badge-info"><img src="https://static.thenounproject.com/png/153178-200.png" height="20" width="20"/><a href="#" style={{color:"white"}}><strong> Messages</strong></a></li>
+                            <li className="m-2 badge badge-success"><img src="https://img.icons8.com/cotton/2x/settings.png" height="20" width="20"/><a href="#" style={{color:"white"}}><strong> Settings</strong></a></li>
                         </ul>
                     </div><br/><br/>
                     <div className="jumbotron rounded">
