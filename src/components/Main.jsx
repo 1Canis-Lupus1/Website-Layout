@@ -64,20 +64,27 @@ const Main=()=>{
                     <div className="row">
                         <div className="col-5 jumbotron rounded m-2" style={{backgroundImage: "url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRppWM5xiY7OCVbcZArBihT2FndwuZEElr5iA&usqp=CAU)",height:"62vh",backgroundSize:"cover"}} >
                             <span style={{color:"black"}}>
-                                <img src="https://png.pngtree.com/element_our/png/20181206/users-vector-icon-png_260862.jpg" height="20" widht="20"/> Uran Design
+                                <img src="https://png.pngtree.com/element_our/png/20181206/users-vector-icon-png_260862.jpg" height="20" widht="20" className="float-left mr-2"/>
+                                <strong><h6>Uran Design</h6></strong> 
                             </span>
+                            <span className="badge badge-warning">82 mins</span>
+                            <br/><br/><br/><br/>
+                            <p className="rounded m-2" style={{backgroundColor:"#A879F5",padding:"10px"}}>Learning How To Create Beautiful Scenes In the Illustrator in 60 minutes!!</p>
                         </div>
-                        <div className="col-5 jumbotron rounded m-2" style={{backgroundImage: "url(https://ak.picdn.net/shutterstock/videos/1013293871/thumb/1.jpg)",backgroundSize:"cover"}}>
+                        <div className="col-5 jumbotron rounded m-2" style={{backgroundImage: "url(https://ak.picdn.net/shutterstock/videos/1013293871/thumb/1.jpg)",backgroundSize:"cover",height:"62vh"}}>
                             <span style={{color:"white"}}>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png" height="30" width="30" /> Lana Marandina
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png" height="20" width="20" className="float-left mr-2"/><strong><h6>Lana Marandina</h6></strong> 
                             </span>
+                            <span className="badge badge-danger">82 mins</span>
+                            <br/><br/><br/>
+                            <p className="rounded m-2" style={{backgroundColor:"#F5BD50",padding:"10px"}}>Creating A Beautiful Potrait Illustration and Learning New Tricks</p>
                         </div>
                     </div><br/>
 
                     <strong>Top</strong> Tutors<br/><br/>
                     <div className="row">
                         <div className="jumbotron rounded col-5 m-1" style={{backgroundColor:"#05D7CB"}}>
-                            <img src="https://f0.pngfuel.com/png/340/946/man-face-illustration-avatar-user-computer-icons-software-developer-avatar-png-clip-art.png" height="40" width="60" alt="Tutor 1" class="float-left mr-2"/>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRgqBp0NepfNUgAomKYADmoLjNzLwbwn7CHpw&usqp=CAU" height="40" width="40" alt="Tutor 1" class="float-left mr-2"/>
                             <strong><h6> Kenny Foster</h6></strong>
                         </div>
                         <div className="jumbotron rounded col-5 m-1" style={{backgroundColor:"#8BEE0A"}}>
@@ -111,15 +118,18 @@ const Main=()=>{
                     </div>
                     <div className="row">
                         <div className="jumbotron rounded col-5 m-2" style={{backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQq6RDOv9ZeB3_QLnYHnqkSLnvcqIXLSYmACg&usqp=CAU)",height:"35vh",backgroundSize:"cover"}}>
-                            More Image Here
+                            <span style={{color:"#0A35ED"}}>More Image Here</span>
                         </div>
                         <div className="jumbotron rounded col-5 m-2" style={{backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_HUEM4-cZ-z0cloBHPfSqwuQ9vlzs6hFwkw&usqp=CAU)",height:"35vh",backgroundSize:"cover"}}>
-                            More Image Here
+                            <span style={{color:"#ED0A55"}}>More Image Here</span>
                         </div>
                     </div><br/>
                     <strong>Special Offers</strong><strong style={floating}>...</strong><br/><br/>
                     <div className="jumbotron rounded m-2" style={{backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDLnyI77vEn0x6cX_l2j-dA7SkPXlzv6iVLg&usqp=CAU)",height:"50vh",backgroundSize:"cover"}}>
-                        Sample image here
+                        <h4><strong>50 Days Of Premium!</strong></h4>
+                        <h6>Get it before 01.09.2020</h6>
+                        <br/><br/><br/>
+                        <button className="btn btn-info">Learn More</button>
                     </div>
                 </div>
 
