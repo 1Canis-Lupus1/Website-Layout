@@ -1,4 +1,4 @@
-This Entire Webpage is created completly using <strong> <em>ReactJs</em></strong> and <strong><em>Bootstrap</em></strong>. 
+This Entire Webpage is created completly using <strong> <em>ReactJs</em></strong> and <strong><em>Bootstrap</em></strong>.  
 
 <u>Screenshot 1</u>:
 
